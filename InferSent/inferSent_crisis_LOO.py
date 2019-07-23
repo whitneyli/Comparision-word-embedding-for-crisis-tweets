@@ -25,7 +25,7 @@ def main():
     clf_name = args.classifiername  # classfier
 
     GLOVE_PATH = 'GloVe/glove.840B.300d.txt'
-    dataset = '../../data/'
+    dataset = '../data/'
     disasters = []
     train_list = []
     test_list = []

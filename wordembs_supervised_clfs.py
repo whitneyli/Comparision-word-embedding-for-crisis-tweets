@@ -47,17 +47,17 @@ def main():
     test_list = []
 
     if data_name == "t6":
-        file_path = '../data/CrisisLexT6_cleaned/'
+        file_path = './data/CrisisLexT6_cleaned/'
         disasters = ["sandy", "queensland", "boston", "west_texas", "oklahoma", "alberta"]
         test_list = ["{}_glove_token.csv.unique.csv".format(disaster) for disaster in disasters]
         train_list = ["{}_training.csv".format(disaster) for disaster in disasters]
     if data_name == "t26":
-        file_path = '../data/CrisisLexT26_cleaned/'
+        file_path = './data/CrisisLexT26_cleaned/'
         disasters = ["2012_Colorado_wildfires", "2013_Queensland_floods", "2013_Boston_bombings", "2013_West_Texas_explosion", "2013_Alberta_floods", "2013_Colorado_floods", "2013_NY_train_crash"]
         test_list = ["{}-tweets_labeled.csv.unique.csv".format(disaster) for disaster in disasters]
         train_list = ["{}_training.csv".format(disaster) for disaster in disasters]
     if data_name == "2C":
-        file_path = '../data/2CTweets_cleaned/'
+        file_path = './data/2CTweets_cleaned/'
         disasters = ["Memphis", "Seattle", "NYC", "Chicago", "SanFrancisco", "Boston", "Brisbane", "Dublin", "London", "Sydney"]
         test_list = ["{}2C.csv.token.csv.unique.csv".format(disaster) for disaster in disasters]
         train_list = ["{}2C_training.csv".format(disaster) for disaster in disasters]
