@@ -30,7 +30,7 @@ def main():
     module_url = "https://tfhub.dev/google/universal-sentence-encoder/1"
     # hub_module_names = ['universal-sentence-encoder-large', 'Wiki-words-250-with-normalization' ]
     # module_urls = ["https://tfhub.dev/google/universal-sentence-encoder-large/2", "https://tfhub.dev/google/Wiki-words-250-with-normalization/1"]
-    dataset_path = "../data/"
+    dataset_path = "./data/"
     disasters =[]
     train_list = []
     test_list = []

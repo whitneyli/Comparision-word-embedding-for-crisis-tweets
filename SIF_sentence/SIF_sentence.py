@@ -26,7 +26,7 @@ def main():
     
     # Original SIF paper used glove.840B.300d, we use the ones that were trained on twitter.
     embed_dims = [100] # can add 25, 50, 200 dimension if needed
-    wordfile_list = ['../../data/glove.twitter.27B.{}d.txt'.format(dim) for dim in embed_dims]
+    wordfile_list = ['../data/glove.twitter.27B.{}d.txt'.format(dim) for dim in embed_dims]
     # each line is a word and its frequency
     weightfile = 'SIF-master/auxiliary_data/enwiki_vocab_min200.txt' 
     # the parameter in the SIF weighting scheme, usually in the range [3e-5, 3e-3]
@@ -43,7 +43,7 @@ def main():
         # weight4ind[i] is the weight for the i-th word
         weight4ind = data_io.getWeight(words, word2weight) 
 
-        data_path = "../../data/"
+        data_path = "../data/"
         if data_name == "t6":
             file_path = data_path + "CrisisLexT6_cleaned/"
             disasters = ["sandy", "queensland", "boston", "west_texas", "oklahoma", "alberta"]
