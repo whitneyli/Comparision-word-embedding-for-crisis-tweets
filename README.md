@@ -6,7 +6,6 @@ This repo contains the python 3.7 scripts for paper [Comparison of Word Embeddin
 
 Require numpy, pandas, scikit-learn, gensim to run word embedding related experiments. For other sentence encodings, [SIF](https://github.com/PrincetonML/SIF) additionally requires theano and lasagne, [InferSent](https://github.com/facebookresearch/InferSent) additionally requires pytorch and nltk, and Universal encoding ([tfSent](https://tfhub.dev/google/universal-sentence-encoder/1)) from Tensorflow requires Tensorflow.
 
-
 ## Data
 Preprocessed data files are in ''data'' directory.
 
