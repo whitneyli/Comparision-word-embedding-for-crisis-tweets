@@ -29,7 +29,7 @@ usage: wordembs\_supervised\_clfs.py [-h]
                                    [-a {mean,tfidf,minmaxmean}]
 
 Example:
-```
+```bash
 python wordembs_supervised_clfs.py -d t26 -c GaussianNB -bow embedding -e Glove -a mean
 ```
 
@@ -44,7 +44,7 @@ To run sentence encodings related experiments:
     python SIF_sentence.py -h
 
 Example:
-```
+```bash
 python SIF_sentence.py -d t26 -c GaussianNB
 ```
 
