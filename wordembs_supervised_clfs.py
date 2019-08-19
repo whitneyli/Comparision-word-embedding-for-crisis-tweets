@@ -103,12 +103,12 @@ def main():
             
     if clf_representation == "embedding":
         wordembd_files_dict = {
-            'Glove':'../data/glove.twitter.27B.100d.txt',
-            'crisisGlove': '../data/glove.crisis.100d.txt',
-            'Word2Vec': '../data/GoogleNews-vectors-negative300.bin',
-            'crisisWord2Vec': '../data/word2vec.crisis.300d.model',
-            'FastText':'../data/wiki-news-300d-1M.vec',
-            'crisisFastText': '../data/crisis-fasttext-model300d.vec'
+            'Glove':'./data/glove.twitter.27B.100d.txt',
+            'crisisGlove': './data/glove.crisis.100d.txt',
+            'Word2Vec': './data/GoogleNews-vectors-negative300.bin',
+            'crisisWord2Vec': './data/word2vec.crisis.300d.model',
+            'FastText':'./data/wiki-news-300d-1M.vec',
+            'crisisFastText': './data/crisis-fasttext-model300d.vec'
             }
         wordembd_file = wordembd_files_dict[embed_type]
         word_embeddings = {}
